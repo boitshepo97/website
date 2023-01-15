@@ -1,4 +1,7 @@
-
+html,body {
+  margin: 0;
+  padding: 0;
+}
 
 
 body {
@@ -56,6 +59,41 @@ body {
     background-color: #f2f2f2;
   }
 
+  .title {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    font-size: 60px;
+    font-family: Gill Sans;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(600px + 400px);
+    text-align: center;
+}
+  .title .oh {
+    display: block;
+}
+
+  .title > span{
+    font-weight: 300;
+    color: purple;
+}
+
+  .contact-me {
+    color:  purple;
+    padding: 20px;
+    text-decoration: none;
+    float: right;
+    font-size: 30px;
+}
+
+  .copywrite {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  border-top: solid 2px black;
+}
   /* Mobile-specific styles */
 @media only screen and (max-width: 600px) {
   nav {
